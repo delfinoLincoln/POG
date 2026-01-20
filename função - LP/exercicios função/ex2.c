@@ -10,7 +10,7 @@ int main()
     printf("Digite dois valores inteiros: ");
     scanf("%d %d", &n1, &n2);
     maior = funcao(n1,n2);
-    printf("O maior valor eh: %d",maior);
+    printf("O maior valor eh: %d", maior);
     return 0;
 }
 

@@ -234,8 +234,8 @@ void validarHora(TPartida **partidas, int *qtd_partidas)
     do 
     {
         printf("Hora da partida (HH MM): ");
-        scanf("%d%d", &(*partidas)[*qtd_partidas].hora_partida.hora, 
-                      &(*partidas)[*qtd_partidas].hora_partida.minuto);
+        scanf("%d%d",   &(*partidas)[*qtd_partidas].hora_partida.hora, 
+                        &(*partidas)[*qtd_partidas].hora_partida.minuto);
         fflush(stdin);
         
         int h = (*partidas)[*qtd_partidas].hora_partida.hora;

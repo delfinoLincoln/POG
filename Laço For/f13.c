@@ -20,7 +20,5 @@ int main()
         {
             printf("Numero primo!\n");
         }
-        
-        
     }
 }
